@@ -28,3 +28,5 @@ app.use(
 app.listen(4000, () => {
   console.log("Server is Running on 4000......");
 });
+
+module.exports = app;
